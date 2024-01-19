@@ -5,7 +5,7 @@ import json
 
 
 app = FastAPI()
-
+# test data
 @app.post("/transform")
 async def transform_data(data: List[Dict[str, str]]):
     # Group the posts by user id
